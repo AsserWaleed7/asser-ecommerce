@@ -1,0 +1,130 @@
+.hero-image {
+  border-radius: 15px;
+}
+
+.hero-section .carousel-item {
+  padding: 20px 0;
+}
+
+.product-card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
+
+.sticky-top {
+  top: 100px;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.card {
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.min-vh-100 {
+  min-height: calc(100vh - 200px);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    height: 300px !important;
+  }
+  
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .sticky-top {
+    top: 20px;
+  }
+}
+/* Category Badges */
+.category-badge {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.category-badge:hover {
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+.category-badge[bg="primary"] {
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25) !important;
+}
+
+/* Responsive Categories */
+@media (max-width: 768px) {
+  .category-badge {
+    font-size: 0.85rem !important;
+    padding: 0.5rem 1rem !important;
+  }
+}
+/* سلة التسوق */
+.cart-container {
+  transition: all 0.3s ease;
+}
+
+.cart-container:hover {
+  transform: translateY(-3px);
+}
+
+.cart-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+  border: 2px solid rgba(255,255,255,0.2);
+  transition: all 0.3s ease;
+}
+
+.dark-mode .cart-icon {
+  background: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(0,0,0,0.2));
+  border-color: rgba(255,255,255,0.1);
+}
+
+.cart-badge {
+  min-width: 22px;
+  height: 22px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  top: -5px !important;
+  right: -5px !important;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/asser-ecommerce/static/css/main.21433ebc.css",
-    "main.js": "/asser-ecommerce/static/js/main.449778ff.js",
+    "main.js": "/asser-ecommerce/static/js/main.2c545182.js",
     "index.html": "/asser-ecommerce/index.html",
     "main.21433ebc.css.map": "/asser-ecommerce/static/css/main.21433ebc.css.map",
-    "main.449778ff.js.map": "/asser-ecommerce/static/js/main.449778ff.js.map"
+    "main.2c545182.js.map": "/asser-ecommerce/static/js/main.2c545182.js.map"
   },
   "entrypoints": [
     "static/css/main.21433ebc.css",
-    "static/js/main.449778ff.js"
+    "static/js/main.2c545182.js"
   ]
 }
